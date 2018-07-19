@@ -1,0 +1,25 @@
+#title {
+  margin-top: 2%;
+  background-color: gray;
+}
+
+#app {
+  margin-top: 4.5%;
+}
+
+#output {
+  background-color: white;
+  margin-top: 8px;
+  padding: 5px;
+  height: 494px;
+  border-radius: 3px;
+  border: 1px solid lightgray;
+}
+
+.display-4 {
+  margin-bottom: 1%;
+}
+.btn{
+  background-color: red;
+  border: 2px solid red;
+}

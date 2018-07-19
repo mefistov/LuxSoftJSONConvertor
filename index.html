@@ -1,0 +1,43 @@
+<!doctype html>
+<html class="index" lang="">
+<script src="script.js"></script>
+
+<body>
+ <div class="container" id="title">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm display-4 text-center">Vlad Seden JSON Convertor</div>
+    </div>
+    <div class="row">
+      <div class="col-sm lead text-center">Input for JSON</div>
+    </div>
+  </div>
+  <div class="container" id="app">
+    <div class="row">
+      <div class="col-sm" id="input">
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">JSON Input</label>
+            <textarea class="form-control" id="json-input" rows="20">
+
+            </textarea>
+          </div>
+        </form>
+      </div>
+      <div class="col-sm">
+        <div class="row">Resulting Form</div>
+        <div class="row">
+          <div class="col-sm" id="output"></div>
+        </div>
+      </div>
+    </div>
+    <button type="button" 
+            class="btn btn-primary submit" 
+            onclick="drawForm($('#json-input').val(), '#output')">
+      Submit
+    </button>
+  </div>
+</div>
+</body>
+
+</html>
